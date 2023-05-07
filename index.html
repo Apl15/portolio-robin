@@ -120,7 +120,13 @@
                          d'avenir dans l'informatique car il y'aura toujours de nouvelles choses
                           à découvrir.
                     </p><br>
-                    <div class="tableau"><a target="_blank" href="tableau_de_synthese.xlsx"> Tableau de synthèse</a></div>
+                    <div class="tableau"><a target="_blank" href="tableau_de_synthese.pdf"> Tableau de synthèse</a>
+                    <p><select size="1" onChange="location = this.option[this.selectedIndex].value;">
+                        <option value="https://www.linkedin.com/in/robin-applaincourt/">Compte Linkedin</option>
+                        <option value="vm">Machine Virtuelle</option>
+                        <option value="kbis">Kbis</option>
+                        <option value="fdp">Fiche de poste</option>
+                      </select></p></div>
 
                 </div>
                 <div class="column right">
@@ -192,7 +198,7 @@
                 </div>
                 <div class="card">
                     <div class="box" >                      
-                        <div class="text"><a href="http://babalig.cluster031.hosting.ovh.net/" style="color:white;">Stage </div></a>
+                        <div class="text"><a target="_blank" href="stage.pdf" style="color:white;">Stage </div></a>
                        <br><p>La gestion d'un site de literie implique la gestion de l'inventaire, la gestion des commandes, 
                           la maintenance du site Web et l'interaction avec les clients pour répondre à leurs besoins en matière 
                           de literie. Cela peut inclure la gestion des prix, l'optimisation du référencement et la création de
@@ -206,34 +212,52 @@
                 <div class="serv-content">
                     <div class="card">
                         <div class="box">
-                            <div class="text"> <a href="powerpoint1.pptx" style="color:white;">AP1</div></a>
-                            <p>Documentation AP1</p>
+                            <div class="text"> <a target="_blank" href="powerpoint1.pdf" style="color:white;">AP1</div></a>
+                            <p><label for="doc"></label>
+                                <select id="doc" name="doc">
+                                  <option value="devis">Devis</option>
+                                  <option value="facture">Facture</option>
+                                  <option value="kbis">Kbis</option>
+                                  <option value="fdp">Fiche de poste</option>
+                                </select></p>
                         </div>
-    
                     </div>
-    
-                    <div class="card">
+             <div class="card">
                         <div class="box">
-                            <div class="text"><a href="powerpoint2.pptx" style="color:white;">AP2</div></a>
-                        <p>Documentation AP2</p>
+                            <div class="text"><a target="_blank" href="powerpoint2.pdf" style="color:white"> AP2</a></div>
+                            <p><label for="doc"></label>
+                                <select id="doc" name="doc">
+                                  <option value="devis">Devis</option>
+                                  <option value="facture">Facture</option>
+                                  <option value="kbis">Kbis</option>
+                                  <option value="fdp">Fiche de poste</option>
+                                </select></p>
                         </div>
                     </div>
                     <div class="card">
                         <div class="box" >                        
                             <div class="text"><a href="documentationutilisateur3.pdf" style="color:white;">AP3 (1)</div></a>
-                           <p>Documentation utilisateur AP3</p>
+                           <p><label for="doc"></label>
+                            <select id="doc" name="doc">
+                              <option value="utilisateur">Documentation utilisateur</option>
+                              <option value="technique">Documentation technique</option>
+                            </select></p>
                         </div>
                     </div>
                     <div class="card">
                         <div class="box" >                        
                             <div class="text"><a href="documentationtechnique3.pdf" style="color:white;">AP3 (2)</div></a>
-                           <p>Documentation technique AP3</p>
+                           <p>Documentation technique</p>
                         </div>
                     </div>
                     <div class="card">
                         <div class="box" >                        
                             <div class="text"><a href="documentationutilisateur4.pdf" style="color:white;">AP4 (1)</div></a>
-                           <p>Documentation utilisateur</p>
+                           <p><label for="doc"></label>
+                            <select id="doc" name="doc">
+                              <option value="utilisateur">Documentation utilisateur</option>
+                              <option value="technique">Documentation technique</option>
+                            </select></p>
                         </div>
                     </div>
                     <div class="card">
@@ -309,9 +333,6 @@
         </div>
     </section>
   
-    <footer>
-        <span>Crée par <a>Robin Applaincourt</a> | <span class="far fa-copyright"></span> 2022</span>
-    </footer>
     <script src="script.js"></script>
 </body>
 </html>
