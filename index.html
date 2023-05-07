@@ -61,6 +61,41 @@
             <br><br><br>
 
 
+
+
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-icon"></div>
+                    <div class="timeline-content">
+                        <h2 class="timeline-title">Titre de l'événement</h2>
+                        <p class="timeline-description">Description de l'événement. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod velit at dui laoreet euismod. Nullam sit amet elit lectus. Duis euismod varius arcu vitae cursus.</p>
+                        <span class="timeline-date">Janvier 2021</span>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-icon"></div>
+                    <div class="timeline-content">
+                        <h2 class="timeline-title">Titre de l'événement</h2>
+                        <p class="timeline-description">Description de l'événement. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod velit at dui laoreet euismod. Nullam sit amet elit lectus. Duis euismod varius arcu vitae cursus.</p>
+                        <span class="timeline-date">Février 2021</span>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-icon"></div>
+                    <div class="timeline-content">
+                        <h2 class="timeline-title">Titre de l'événement</h2>
+                        <p class="timeline-description">Description de l'événement. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod velit at dui laoreet euismod. Nullam sit amet elit lectus. Duis euismod varius arcu vitae cursus.</p>
+                        <span class="timeline-date">Mars 2021</span>
+                    </div>
+                </div>
+            </div>
+
+            
+
+
+
+
+
             <section class="opt" id="opt">
             <div class="max-width">
                 <h2 class="title">Les différentes options</h2>
@@ -92,10 +127,10 @@
                         <div class="box">                        
                             <div class="text"><a href="" style="color:white;">Cybersécurité</div></a>
                             <br><br>
-                            La cybersécurité a été ajoutée pour les deux spécialités pour les deux spécialisés
-                               et fait maintenant entièrement partie du programme. Son fonctionnement consiste 
-                               à créer quelque chose de sécurité que se voit pour les SLAM, un programme sécurisé
-                               ou un site web sécurisé ou encore pourles SISR, une infrastructure sécurisée contre les attaques informatiques.
+                            La cybersécurité a été ajoutée pour les deux spécialisés
+                            et fait maintenant entièrement partie du programme. Son fonctionnement consiste 
+                            à créer quelque chose de sécurité que se soit pour les SLAM, un programme sécurisé
+                            ou un site web sécurisé ou encore pour les SISR, une infrastructure sécurisée contre les attaques informatiques.
                             </p></div>
                         </div>
                     </div>
@@ -121,11 +156,11 @@
                           à découvrir.
                     </p><br>
                     <div class="tableau"><a target="_blank" href="tableau_de_synthese.pdf"> Tableau de synthèse</a>
-                    <p><select size="1" onChange="location = this.option[this.selectedIndex].value;">
-                        <option value="https://www.linkedin.com/in/robin-applaincourt/">Compte Linkedin</option>
-                        <option value="vm">Machine Virtuelle</option>
-                        <option value="kbis">Kbis</option>
-                        <option value="fdp">Fiche de poste</option>
+                    <p><select onchange="if (this.value) window.open(this.value);">
+                        <option value="https://www.linkedin.com/in/robin-applaincourt-495569228/">Compte Linkedin</option>
+                        <option value="machinevirtuelle.pdf">Machine Virtuelle</option>
+                        <option value="https://github.com/Apl15">Github</option>
+                        <option value="glpidoc.pdf">Documentation GLPI</option>
                       </select></p></div>
 
                 </div>
@@ -202,7 +237,7 @@
                        <br><p>La gestion d'un site de literie implique la gestion de l'inventaire, la gestion des commandes, 
                           la maintenance du site Web et l'interaction avec les clients pour répondre à leurs besoins en matière 
                           de literie. Cela peut inclure la gestion des prix, l'optimisation du référencement et la création de
-                          promotions pour stimuler les ventes. </p>
+                          promotions pour stimuler les ventes.<br><br><a a target="_blank" href="https://www.facebook.com/babalaliterie" style="color:white;"><u>Facebook de Baba La Literie</u></a></p>
                     </div>
                 </div>
                </div>
@@ -213,12 +248,11 @@
                     <div class="card">
                         <div class="box">
                             <div class="text"> <a target="_blank" href="powerpoint1.pdf" style="color:white;">AP1</div></a>
-                            <p><label for="doc"></label>
-                                <select id="doc" name="doc">
-                                  <option value="devis">Devis</option>
-                                  <option value="facture">Facture</option>
-                                  <option value="kbis">Kbis</option>
-                                  <option value="fdp">Fiche de poste</option>
+                            <p><select onchange="if (this.value) window.open(this.value);">
+                                  <option value="devisap1.pdf">Devis</option>
+                                  <option value="factureap1.png">Facture</option>
+                                  <option value="kbisap1.png">Kbis</option>
+                                  <option value="fichedeposte.pdf">Fiche de poste</option>
                                 </select></p>
                         </div>
                     </div>
@@ -237,11 +271,7 @@
                     <div class="card">
                         <div class="box" >                        
                             <div class="text"><a href="documentationutilisateur3.pdf" style="color:white;">AP3 (1)</div></a>
-                           <p><label for="doc"></label>
-                            <select id="doc" name="doc">
-                              <option value="utilisateur">Documentation utilisateur</option>
-                              <option value="technique">Documentation technique</option>
-                            </select></p>
+                           <p>Documentation utilisateur</p>
                         </div>
                     </div>
                     <div class="card">
@@ -253,11 +283,7 @@
                     <div class="card">
                         <div class="box" >                        
                             <div class="text"><a href="documentationutilisateur4.pdf" style="color:white;">AP4 (1)</div></a>
-                           <p><label for="doc"></label>
-                            <select id="doc" name="doc">
-                              <option value="utilisateur">Documentation utilisateur</option>
-                              <option value="technique">Documentation technique</option>
-                            </select></p>
+                           <p>Documentation utilisateur</p>
                         </div>
                     </div>
                     <div class="card">
@@ -334,5 +360,25 @@
     </section>
   
     <script src="script.js"></script>
+
+      
 </body>
+
+<div class="footer-icons">
+    <a href="https://www.linkedin.com/in/robin-applaincourt-495569228/" target="_blank">
+      <div class="icon-container">
+        <i class="fab fa-linkedin-in"></i>
+      </div>
+    </a>
+    <a href="https://github.com/Apl15" target="_blank">
+      <div class="icon-container">
+        <i class="fab fa-github"></i>
+      </div>
+    </a>
+  </div>
+
+
+  
+
+
 </html>
